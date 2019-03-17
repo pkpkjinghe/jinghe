@@ -1,0 +1,60 @@
+html,
+body,
+div,
+ul,
+form,
+span,
+a,
+p,
+li,
+h,
+input{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    font-style: '微软雅黑',sans-serif;
+    font-size: 13px;
+}
+ul{
+    list-style: none;
+}
+a,
+a:hover{
+    color:#666;
+    text-decoration: none;
+}
+input{
+    outline: none;
+    border:none;
+    border: 1px solid #ccc;
+}
+.f_left{
+  float: left;
+}
+.f_right{
+    float: right;
+}
+.m_left10{
+    margin-left: 10px;
+}
+.m_right{
+    margin-right: 10px;
+}
+.m_top10{
+    margin-top: 10px;
+}
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+
